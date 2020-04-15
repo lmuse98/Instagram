@@ -1,0 +1,11 @@
+.LoginForm {
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    width: 400px;
+    height: 450px;
+    border: 1px solid grey;
+    text-align: center;
+    display: inline-block;
+}
