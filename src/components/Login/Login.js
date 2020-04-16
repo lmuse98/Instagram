@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Login.module.css";
-import App from "../App/App";
+import Logo from './InstaLogo.png';
+
 
 
 class Login extends React.Component {
@@ -24,15 +25,26 @@ class Login extends React.Component {
 
   render() {
     return (
+      <div>
       <div className={styles.LoginForm}>
         <form onSubmit={this.mySubmitHandler}>
-          <h1>Hello {this.state.username} {this.state.password}</h1>
+          <img src={Logo} alt="instLogo"/>
+          <h1 className ="slova">{this.state.username} {this.state.password}</h1>
           <p>Enter your name, and submit:</p>
           <input type="text" name ='username' onChange={this.myChangeHandler} />
+          <br></br>
           <input type="text" name ='password' onChange={this.myChangeHandler} />
+          <br></br>
           <input type="submit" />
         </form>
       </div>
+        <div className ={styles.reg}>
+          <p className={styles.racun}>Nemate račun?
+          <br></br>
+          Registrirajte se</p>
+        </div>
+      </div>
+      
     );
   }
 }

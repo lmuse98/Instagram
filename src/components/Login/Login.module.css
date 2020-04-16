@@ -9,3 +9,24 @@
     text-align: center;
     display: inline-block;
 }
+.slova {
+    font-display: initial;
+}
+.reg {
+    background-color: white;
+    position: absolute;
+    bottom: 18%;
+    left: 55%;
+    width: 400px;
+    height: 80px;
+    border: 1px solid grey;
+    text-align: center;
+    display: inline-block;
+    
+    
+    
+}
+
+.racun {
+    text-align: center;
+}
