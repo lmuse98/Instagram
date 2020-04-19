@@ -8,11 +8,25 @@ body {
     width: 450px;
     
 }
-.logoMac {
-margin: 0;
-padding: 0;
-border: 0;
-font: inherit;
-vertical-align: baseline;
-
+.preuzmi {
+    position: absolute;
+    bottom:12%;
+    left: 64%;
+    text-align: center;
+    font-display: 14px;
 }
+.logoMac{
+    position: absolute;
+    bottom: 6%;
+    left: 61%;
+    
+}
+.logoMac:hover {
+    cursor: pointer;
+}
+.logoAndroid {
+    position: absolute;
+    bottom: 6%;
+    left: 70%;
+}
+

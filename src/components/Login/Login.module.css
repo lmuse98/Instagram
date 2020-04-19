@@ -7,8 +7,6 @@
     height: 450px;
     border: 1px solid gainsboro;
     text-align: center;
-    display: inline-block;
-    
 }
 .slova {
     font-display: initial;
@@ -22,20 +20,20 @@
     height: 80px;
     border: 1px solid gainsboro;
     text-align: center;
-    display: inline-block;
-    
-    
-    
 }
 
 .racun {
     text-align: center;
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 16px;
+    padding: 3%
+    
+}
+.logoFacebook {
+    
 }
 
-.instLogo{
-    width: 200px;
-    height: 30px;
-}
+
 
 .korisnickoIme {
     -webkit-box-align: center;
@@ -79,7 +77,8 @@ color: rgba(var(--f52,142,142,142),1);
 font-size: 16px;
 font-weight: 600;
 text-transform: uppercase;
-
-
 }
+
+
+
 

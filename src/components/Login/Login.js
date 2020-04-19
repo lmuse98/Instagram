@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Login.module.css";
 import Logo from './InstaLogo.png';
+import logo2 from './icons8-facebook_old.png';
 
 
 
@@ -33,6 +34,7 @@ class Login extends React.Component {
           <input className={styles.lozinka} type="text" name ='password' placeholder="Lozinka" onChange={this.myChangeHandler} />
           <button className={styles.prijavaBttn}>Prijava</button>
           <h1 className={styles.ili}>ili</h1>
+          <div className={styles.logoFacebook}><img src = {logo2} alt="logo2" /></div>
         </form>
       </div>
         <div className ={styles.reg}>
