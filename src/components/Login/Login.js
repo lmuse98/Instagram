@@ -29,18 +29,14 @@ class Login extends React.Component {
       <div className={styles.LoginForm}>
         <form onSubmit={this.mySubmitHandler}>
           <img src={Logo} alt="instLogo"/>
-          <h1 className ="slova">{this.state.username} {this.state.password}</h1>
-          <p>Enter your name, and submit:</p>
-          <input type="text" name ='username' onChange={this.myChangeHandler} />
-          <br></br>
-          <input type="text" name ='password' onChange={this.myChangeHandler} />
-          <br></br>
-          <input type="submit" />
+          <input className={styles.korisnickoIme} type="text" name ='username' placeholder="Korisničko ime" onChange={this.myChangeHandler} />
+          <input className={styles.lozinka} type="text" name ='password' placeholder="Lozinka" onChange={this.myChangeHandler} />
+          <button className={styles.prijavaBttn}>Prijava</button>
+          <h1 className={styles.ili}>ili</h1>
         </form>
       </div>
         <div className ={styles.reg}>
           <p className={styles.racun}>Nemate račun?
-          <br></br>
           Registrirajte se</p>
         </div>
       </div>

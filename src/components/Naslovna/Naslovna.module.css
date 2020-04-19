@@ -4,7 +4,15 @@ body {
 .mob {
     position: fixed;
     top: 10%;
-    left: 20%;
+    left: 22%;
     width: 450px;
     
+}
+.logoMac {
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+
 }
