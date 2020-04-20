@@ -23,14 +23,21 @@
 }
 
 .racun {
+    position: absolute;
     text-align: center;
     color: rgba(var(--i1d,38,38,38),1);
     font-size: 16px;
-    padding: 3%
-    
+    padding: 4%;
+    left: 17%;
+    font-size: 15px;
 }
+
 .logoFacebook {
-    
+    box-sizing: content-box;
+    display: inline-block;
+    float: none;
+    line-height: 18px;
+    position: relative;
 }
 
 
@@ -78,7 +85,45 @@ font-size: 16px;
 font-weight: 600;
 text-transform: uppercase;
 }
+.logoFacebook {
+    padding: 5%;
+    right:27%;
+}
+.logoFacebook:hover {
+    cursor: pointer;
+}
+.prijavaFace {
+    position: absolute;
+    right: 19%;
+    bottom: 18%;
+    color: #385185;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 15px;
+}
+.prijavaFace:hover {
+    cursor: pointer;
+}
+.zabPass {
+    color: #385185;
+    text-align: center;
+    margin: 4%;
+    font-size: 14px;
 
+} 
+.zabPass:hover {
+    cursor: pointer;
+}
+.racunReg {
+    position: absolute;
+    padding: 4%;
+    right: 18%;
+    color: #0095f6;
+    font-weight: bold;
+}
+.racunReg:hover {
+    cursor: pointer;
+}
 
 
 

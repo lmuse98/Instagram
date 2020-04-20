@@ -35,11 +35,14 @@ class Login extends React.Component {
           <button className={styles.prijavaBttn}>Prijava</button>
           <h1 className={styles.ili}>ili</h1>
           <div className={styles.logoFacebook}><img src = {logo2} alt="logo2" /></div>
+          <div className={styles.prijavaFace}><p>Prijavite se putem Facebooka</p></div>
+          <p className={styles.zabPass}>Zaboravili ste lozinku?</p>
+          
         </form>
       </div>
         <div className ={styles.reg}>
-          <p className={styles.racun}>Nemate račun?
-          Registrirajte se</p>
+          <p className={styles.racun}>Nemate račun?</p> 
+          <p className={styles.racunReg}>Registrirajte se</p>
         </div>
       </div>
       

@@ -29,4 +29,7 @@ body {
     bottom: 6%;
     left: 70%;
 }
+.logoAndroid:hover {
+    cursor: pointer;
+}
 
