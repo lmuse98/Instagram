@@ -17,7 +17,7 @@
     bottom: 18%;
     left: 55%;
     width: 400px;
-    height: 80px;
+    height: 83px;
     border: 1px solid gainsboro;
     text-align: center;
 }
@@ -80,10 +80,11 @@
 }
 .ili {
     color: #8e8e8e;
-color: rgba(var(--f52,142,142,142),1);
-font-size: 16px;
-font-weight: 600;
-text-transform: uppercase;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
 }
 .logoFacebook {
     padding: 5%;
@@ -116,10 +117,12 @@ text-transform: uppercase;
 }
 .racunReg {
     position: absolute;
-    padding: 4%;
-    right: 18%;
-    color: #0095f6;
+    padding: 8%;
+    right: 17%;
     font-weight: bold;
+    border: none;
+    color:#385185;
+    font-size: 14px;
 }
 .racunReg:hover {
     cursor: pointer;
