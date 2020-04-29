@@ -35,7 +35,7 @@ class Login extends React.Component {
             />
             <input
               className={styles.lozinka}
-              type="text"
+              type="password"
               name="password"
               placeholder="Lozinka"
               onChange={this.myChangeHandler}

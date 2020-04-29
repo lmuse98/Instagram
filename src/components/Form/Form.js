@@ -15,6 +15,10 @@ class Form extends React.Component {
       name: "",
       passwordError: ""
     };
+
+    this.handleSubmit = (e) => {
+      e.preventDefault();
+    }
   }
 
   render() {
@@ -31,10 +35,10 @@ class Form extends React.Component {
           Prijavite se putem Facebooka
         </button>
         <h1 className={styles.ili}>ili</h1>
-        <form className={styles.forma}>
+        <form onSubmit={this.handleSubmit}>
           <input
             className={styles.regEmail}
-            type="text"
+            type="email"
             name="email"
             placeholder="Email"
           />
@@ -42,7 +46,7 @@ class Form extends React.Component {
             className={styles.regIme}
             type="text"
             name="ime"
-            placeholder="Ime"
+            placeholder="Ime i Prezime"
           />
           <input
             className={styles.regKorisn}
@@ -52,7 +56,7 @@ class Form extends React.Component {
           />
           <input
             className={styles.regPass}
-            type="text"
+            type="password"
             name="password"
             placeholder="Password"
           />

@@ -1,18 +1,12 @@
 import React from 'react';
 import styles from './Naslovna.module.css';
-import mob from './mob.png';
+import mob from '../../assets/mob.png';
 import logo from './macLogo.svg';
 import logo2 from './google-play-badge.svg';
 
 
 
 class Naslovna extends React.Component {
-
-    constructor(props) {
-        super();
-
-    }
-
 
     render() {
         return(

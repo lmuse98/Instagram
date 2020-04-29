@@ -63,6 +63,7 @@
     cursor: pointer;
 }
 .registBttn{
+    border: 1px solid transparent;
     margin: 13px 70px;
     width: 255px;
     padding: 1.8%;

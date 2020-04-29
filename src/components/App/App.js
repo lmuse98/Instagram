@@ -4,6 +4,7 @@ import Naslovna from "../Naslovna/Naslovna";
 import Login from "../Login/Login";
 import Modal from "../Modal/Modal";
 import Form from "../Form/Form";
+import Header from '../Header/Header';
 
 class App extends Component {
   constructor(props) {
@@ -20,11 +21,12 @@ class App extends Component {
   render() {
     return (
       <div className={styles.App}>
-        <Naslovna />
+        { /*<Naslovna />
         <Login onToggleModal={this.toggleModal} />
         <Modal isOpen={this.state.isModalOpen} onClose={this.toggleModal}>
           <Form />
-        </Modal>
+        </Modal> */}
+        <Header />
       </div>
     );
   }
