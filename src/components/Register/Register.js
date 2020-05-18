@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import styles from "./Form.module.css";
+import styles from "./Register.module.css";
 import logo from "../../assets/InstaLogo.png";
 
 class Form extends React.Component {
@@ -10,15 +10,10 @@ class Form extends React.Component {
       username: "",
       name: "",
       password: "",
-      emailError: "",
-      usernameError: "",
-      name: "",
-      passwordError: ""
+      
     };
 
-    this.handleSubmit = (e) => {
-      e.preventDefault();
-    }
+
   }
 
   render() {

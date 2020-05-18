@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mate Lončar",
+      "email": "sajsadj@net.hr",
+      "category": "phones",
+      "stanje_zaliha": "5"
+    },
+    {
+      "id": 2,
+      "name": "Y",
+      "price": "95",
+      "category": "phones",
+      "stanje_zaliha": "5"
+    },
+    {
+      "id": 3,
+      "name": "Z",
+      "price": "95",
+      "category": "phones",
+      "stanje_zaliha": "5"
+    }
+  ]
+}
