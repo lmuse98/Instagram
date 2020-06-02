@@ -6,15 +6,16 @@ import logo2 from "../../assets/icons8-facebook_old.png";
 class Login extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { 
-    username: "", 
-    password: "" };
+    this.state = {
+      username: "",
+      password: "",
+    };
   }
 
   mySubmitHandler = event => {
     event.preventDefault();
-  };
 
+  };
 
   render() {
     return (
@@ -22,7 +23,6 @@ class Login extends React.Component {
         <div className={styles.LoginForm}>
           <form onSubmit={this.mySubmitHandler}>
             <img src={Logo} alt="instLogo" />
-            
             <input
               className={styles.korisnickoIme}
               type="text"

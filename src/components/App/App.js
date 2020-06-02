@@ -6,6 +6,7 @@ import Login from "../Login/Login";
 import Modal from "../Modal/Modal";
 import Register from "../Register/Register";
 import Header from '../Header/Header';
+import { connect } from 'react-redux';
 import { addUsers } from "../../redux/actions";
 import { getUsers } from '../../services';
 
@@ -28,6 +29,8 @@ class App extends Component {
     dispatch(addUsers(json));
   };
 
+
+
   componentDidMount() {
     this.fetchData();
   }
@@ -40,15 +43,21 @@ class App extends Component {
       <Router> 
       <div className={styles.App}>
         <Naslovna />
-        <Login onToggleModal={this.toggleModal} />
+        <Login onToggleModal = {this.toggleModal} />
         <Modal isOpen={this.state.isModalOpen} onClose={this.toggleModal}>
           <Register />
         </Modal> 
-        {/* <Header /> */}
+        {/* <Header />  */}
       </div>
       </Router>
     );
   }
 }
 
-export default App;
+function mapStateToProps(state) {
+  return {
+    users: state.users.users
+  };
+}
+
+export default connect(mapStateToProps)(App);

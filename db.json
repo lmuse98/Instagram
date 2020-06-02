@@ -2,24 +2,45 @@
   "users": [
     {
       "id": 1,
-      "name": "Mate Lončar",
-      "email": "sajsadj@net.hr",
-      "category": "phones",
-      "stanje_zaliha": "5"
+      "name": "Mate",
+      "username": "matemate",
+      "password": "123456"
     },
     {
       "id": 2,
-      "name": "Y",
-      "price": "95",
-      "category": "phones",
-      "stanje_zaliha": "5"
+      "name": "Stjepan",
+      "username": "cipa",
+      "password": "123456"
     },
     {
       "id": 3,
-      "name": "Z",
-      "price": "95",
-      "category": "phones",
-      "stanje_zaliha": "5"
+      "name": "Ante",
+      "username": "ante1950",
+      "password": "123456"
+    },
+    {
+      "id": 4
+    },
+    {
+      "name": "asdasd",
+      "email": "asdas@gmail.com",
+      "username": "adsad",
+      "password": "dasdasd",
+      "id": 5
+    },
+    {
+      "name": "asdasd",
+      "email": "asdas@gmail.com",
+      "username": "adsad",
+      "password": "dasdasd",
+      "id": 6
+    },
+    {
+      "name": "asdasd",
+      "email": "asdas@gmail.com",
+      "username": "adsad",
+      "password": "dasdasd",
+      "id": 7
     }
   ]
 }
