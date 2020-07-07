@@ -41,6 +41,27 @@
       "username": "adsad",
       "password": "dasdasd",
       "id": 7
+    },
+    {
+      "name": "Ante Mate",
+      "email": "sadjas@gmail.com",
+      "username": "profa",
+      "password": "lukica1",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "username": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "name": "dead",
+      "email": "asdasd@gmail.com",
+      "username": "dadsa",
+      "password": "sdadsa",
+      "id": 10
     }
   ]
 }

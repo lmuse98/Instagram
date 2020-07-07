@@ -1,10 +1,33 @@
-import { ADD_USERS, ADD_USER, REMOVE_USER, EDIT_USER, FILTER_USERS, BOOKMARK_USER } from '../actions';
+import { ADD_USERS, ADD_USER, SET_USER , REMOVE_USER, EDIT_USER, FILTER_USERS, BOOKMARK_USER } from '../actions';
+
 
 const initialState = {
   users: [],
   filteredUsers: [],
-  bookmarkedUsers: []
+  bookmarkedUsers: [],
+  currentUser: {
+    isAuth: false,
+  }
 };
+
+function setUser(state, action) {
+  const match = state.users.find(
+    (user) =>
+    user.username === action.payload.username && 
+    user.password === action.payload.password
+  );
+    const user = match ? match : null;
+
+
+    return {
+      ...state,
+      currentUser: {
+        isAuth: Boolean(user),
+        ...user,
+      },
+    };
+
+}
 
 function addUsers(state, action) {
   return {
@@ -85,6 +108,9 @@ export default function reducer(state = initialState, action) {
 
     case ADD_USER:
       return addUser(state, action);
+
+    case SET_USER:
+      return setUser(state,action);
     
     case REMOVE_USER:
       return removeUser(state, action);

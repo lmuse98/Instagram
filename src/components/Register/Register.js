@@ -15,7 +15,6 @@ class Form extends React.Component {
   }
 
   onSubmitHandler = async e => {
-    e.preventDefault();
 
     try {
       await postUser(this.state);

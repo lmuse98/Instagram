@@ -1,0 +1,46 @@
+.profile {
+    position: absolute;
+    left: 22%;
+    top: 10%;
+    cursor: pointer;
+    
+    
+}
+.ikona {
+    
+    color: rgb(192, 192, 192);
+    
+}
+.ime{
+    position: absolute;
+    top: 11.6%;
+    left: 42%;
+    font-weight: 300;
+}
+.editBttn {
+    position: absolute;
+    top: 13%;
+    left: 50.5%;
+    background-color: white;
+    font:bold;
+    font-display: black;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 9px;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    height: 35px;
+    border-radius: 4px;
+    
+}
+.options {
+    position: absolute;
+    top: 13.0%;
+    right: 40%;
+    width: 28px;
+    cursor: pointer;
+}
