@@ -78,10 +78,11 @@
       "id": 12
     },
     {
+      "isAuth": true,
       "name": "lukica12",
       "email": "sakdk@net.hr",
       "username": "lukica12",
-      "password": "lukica12",
+      "password": "1",
       "id": 13
     },
     {
@@ -92,10 +93,11 @@
       "id": 14
     },
     {
+      "isAuth": true,
       "name": "Luka Mate",
       "email": "askslk@gmail.com",
       "username": "profa",
-      "password": "lukica",
+      "password": "123",
       "id": 15
     },
     {
@@ -104,6 +106,13 @@
       "username": "",
       "password": "",
       "id": 16
+    },
+    {
+      "name": "kiki",
+      "email": "kiki@gmail.com",
+      "username": "krta",
+      "password": "krta",
+      "id": 17
     }
   ]
 }

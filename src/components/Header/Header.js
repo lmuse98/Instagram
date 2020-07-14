@@ -22,7 +22,7 @@ const Header = props => {
         <PrivateNavLink to="/Favorite">
           <FavoriteIcon className={styles.favorit} style={{ fontSize: 30 }} />
         </PrivateNavLink>
-        <PrivateNavLink to="/Profile">
+        <PrivateNavLink to="/Profile/:id">
           {" "}
           <img
             className={styles.avatar}

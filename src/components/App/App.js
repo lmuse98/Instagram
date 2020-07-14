@@ -36,7 +36,7 @@ const App = () => {
         <Route exact path="/" component={LoginPage} />
         <PrivateRoute exact path = "/Home" component = {Home} />
         <PrivateRoute path = "/Favorite" component = {Favorite} />
-        <PrivateRoute path = "/Profile" component = {Profile} />
+        <PrivateRoute path = "/Profile/:id" component = {Profile} />
         
         
       </div>

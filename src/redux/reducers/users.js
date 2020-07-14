@@ -78,6 +78,7 @@ function editUser(state, action) {
   };
 }
 
+
 function filterUsers(state, action) {
   return Object.assign({}, state, {
     filteredUsers: state.users.filter(
