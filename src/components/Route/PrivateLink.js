@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 const PrivateNavLink = ({ ...rest }) => {
   const { currentUser } = useSelector(state => state.users);
-  const isAuth = currentUser.isAuth && currentUser.isAdmin;
+  const isAuth = currentUser.isAuth;
   if(!isAuth) return null;
   return <NavLink {...rest} />
 }

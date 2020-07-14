@@ -6,9 +6,8 @@ import logo2 from './google-play-badge.svg';
 
 
 
-class Naslovna extends React.Component {
+const Naslovna = () => {
 
-    render() {
         return(
         <div>
                 <div><img className={styles.mob} src={mob} alt="mob"/></div> 
@@ -19,7 +18,7 @@ class Naslovna extends React.Component {
         )
         
     }
-}
+
 
 
 export default Naslovna;

@@ -5,12 +5,12 @@ import { useSelector } from "react-redux";
 const PrivateRoute = ({ component: Component, ...rest }) => {
 
   const { currentUser } = useSelector((state) => state.users);
-  const isAuth = currentUser.isAuth && currentUser.isAdmin;
+  const isAuth = currentUser.isAuth;
   return (
     <Route
       {...rest}
       render={(props) =>
-        isAuth ? <Component {...props} /> : <Redirect to="/Home" />
+        isAuth ? <Component {...props} /> : <Redirect to="/" />
       }
     />
   );

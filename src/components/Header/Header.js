@@ -3,10 +3,10 @@ import styles from "./Header.module.css";
 import logo from "../../assets/instagram logo.png";
 import Search from "../Search/Search";
 import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
 import HomeIcon from "@material-ui/icons/Home";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import { logo2 } from "../../assets/avatar.png";
+import PrivateNavLink from '../Route/PrivateLink';
 
 const Header = props => {
   return (
@@ -16,20 +16,20 @@ const Header = props => {
       </div>
       <div className={styles.icons}></div>
       <nav>
-        <NavLink exact to="/" className={styles.home}>
+        <PrivateNavLink exact to="/Home" className={styles.home}>
           <HomeIcon className={styles.home} style={{ fontSize: 30 }} />
-        </NavLink>
-        <NavLink to="/obavijesti">
+        </PrivateNavLink>
+        <PrivateNavLink to="/Favorite">
           <FavoriteIcon className={styles.favorit} style={{ fontSize: 30 }} />
-        </NavLink>
-        <NavLink to="/profile">
+        </PrivateNavLink>
+        <PrivateNavLink to="/Profile">
           {" "}
           <img
             className={styles.avatar}
             src={require("../../assets/avatar.png")}
             alt="avatar"
           />{" "}
-        </NavLink>
+        </PrivateNavLink>
 
         <Search />
       </nav>

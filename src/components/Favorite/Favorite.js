@@ -1,29 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from './Favorite.module.css';
+import Header from '../Header/Header';
 
-
-
-class Favorite extends Component {
-    constructor(props) {
-        super(props); 
-            this.state = {
-                isModalOpen: false
-            };
-        }
+const Favorite = () => {
     
-
-    toggleModal = () => {
-        this.setState({ isModalOpen: !this.state.isModalOpen})
-    }
-
-    render() {
-        return(
-            <div>
-               
-            </div>
-        );
-    };
-
+    return(
+        <div>
+            <Header></Header>
+        </div>
+    )
 }
 
 export default Favorite;

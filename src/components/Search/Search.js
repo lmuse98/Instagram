@@ -2,8 +2,8 @@ import React from 'react';
 import styles from "./Search.module.css";
 
 
-class Search extends React.Component {
-  render() {
+const Search = () => {
+
     return (
       <div>
         <input className = {styles.Search}
@@ -13,6 +13,6 @@ class Search extends React.Component {
       </div>
     );
   }
-}
+
 
 export default Search;

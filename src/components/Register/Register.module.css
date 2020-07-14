@@ -1,13 +1,17 @@
-.regEmail {
-    margin: 4px 70px;
+.regIme {
+    position: absolute;
+    top: 45%;
+    left: 41.5%;
     background-color: rgba(var(--b3f,250,250,250),1);
     width: 250px;
     height: 30px;
     border: 1px solid gainsboro;
     border-radius: 3px;
 }
-.regIme {
-    margin: 4px 70px;
+.regEmail {
+    position: absolute;
+    top: 51%;
+    left: 41.5%;
     background-color: rgba(var(--b3f,250,250,250),1);
     width: 250px;
     height: 30px;
@@ -15,7 +19,9 @@
     border-radius: 3px;
 }
 .regKorisn {
-    margin: 4px 70px;
+    position: absolute;
+    top: 57%;
+    left: 41.5%;
     background-color: rgba(var(--b3f,250,250,250),1);
     width: 250px;
     height: 30px;
@@ -23,7 +29,9 @@
     border-radius: 3px;
 }
 .regPass {
-    margin: 4px 70px;
+    position: absolute;
+    top: 63%;
+    left: 41.5%;
     background-color: rgba(var(--b3f,250,250,250),1);
     width: 250px;
     height: 30px;
@@ -31,6 +39,8 @@
     border-radius: 3px;
 }
 .podNaslov {
+    position: relative;
+    top: 23%;
     color:rgba(var(--f52,142,142,142),1);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,6 +48,9 @@
     
 }
 .ili {
+    position: absolute;
+    left: 50%;
+    top: 37%;
     color: #8e8e8e;
     color: rgba(var(--f52,142,142,142),1);
     font-size: 16px;
@@ -49,7 +62,9 @@
 .prijavaFaceb {
     border:1px solid transparent;;
     width: 250px;
-    padding: 1.8%;
+    position: absolute;
+    left: 36.5%;
+    top: 31%;
     background-color: rgba(var(--d69,0,149,246),1);
     border-radius: 4px;
     font-size: 16px;
@@ -64,9 +79,10 @@
 }
 .registBttn{
     border: 1px solid transparent;
-    margin: 13px 70px;
     width: 255px;
-    padding: 1.8%;
+    position: absolute;
+    top: 70%;
+    left: 41.5%;
     box-sizing: border-box;
     background-color: rgba(var(--d69,0,149,246),1);
     border-radius: 4px;
@@ -82,5 +98,10 @@
     color: #8e8e8e;
     font-size: 12px;
     text-align: center;
-    margin: 5px 25px;
+    position: absolute;
+    top: 78%;
+}
+.slika {
+    position: absolute;
+    right: 35%;
 }

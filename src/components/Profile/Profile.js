@@ -2,6 +2,9 @@ import React from "react";
 import styles from "./Profile.module.css";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import { useSelector , useDispatch } from 'react-redux';
+import Header from '../Header/Header';
+import EditProfile from '../EditProfile/EditProfile';
+import Modal from 'react-bootstrap/Modal';
 
 
 const Profile = props => {
@@ -9,12 +12,13 @@ const Profile = props => {
   const dispatch = useDispatch();
   return (
     <div>
-      
+      <Header></Header>
+      <EditProfile />
       <div className={styles.profile}>
         <AccountCircleIcon className={styles.ikona} style={{ fontSize: 190 }} />
       </div>
-      <h2 className={styles.ime}>{currentUser.isAuth} ? {currentUser.username} : null</h2>
-      <button className={styles.editBttn}>Edit Profile</button>
+      <h2 className={styles.ime}>{currentUser.isAuth} {currentUser.username}</h2>
+      
 
       <svg
         className={styles.options}

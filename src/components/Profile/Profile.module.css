@@ -14,13 +14,14 @@
 .ime{
     position: absolute;
     top: 11.6%;
-    left: 42%;
-    font-weight: 300;
+    left: 39%;
+    font-weight: 350;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .editBttn {
     position: absolute;
     top: 13%;
-    left: 50.5%;
+    left: 44.9%;
     background-color: white;
     font:bold;
     font-display: black;
@@ -40,7 +41,7 @@
 .options {
     position: absolute;
     top: 13.0%;
-    right: 40%;
+    left: 52.5%;
     width: 28px;
     cursor: pointer;
 }
