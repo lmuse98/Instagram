@@ -113,6 +113,13 @@
       "username": "krta",
       "password": "krta",
       "id": 17
+    },
+    {
+      "name": "ante",
+      "email": "ante@gmail.com",
+      "username": "antisa",
+      "password": "1",
+      "id": 18
     }
   ]
 }

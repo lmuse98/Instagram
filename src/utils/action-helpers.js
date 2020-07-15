@@ -8,10 +8,13 @@ const UPDATE = "UPDATE";
 const DELETE = "DELETE";
 const ALL = "ALL";
 
+
 // helpers
 export function action(type, payload) {
   return typeof payload === "undefined" ? { type } : { type, payload };
 }
+
+
 
 export function createAction(type) {
   return payload => action(type, payload);

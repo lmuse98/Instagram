@@ -22,7 +22,7 @@ const Profile = props => {
       <div className={styles.profile}>
         <AccountCircleIcon className={styles.ikona} style={{ fontSize: 190 }} />
       </div>
-      <h2 className={styles.ime}>{currentUser.isAuth} {user.username}</h2>
+      <h2 className={styles.ime}> {user.username}</h2>
       
       <svg
         className={styles.options}

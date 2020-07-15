@@ -6,6 +6,7 @@ import UsersList from '../UsersList/UsersList';
 
 
 
+
 const Home = () => {
     
     const { currentUser } = useSelector((state) => state.users);
@@ -16,6 +17,7 @@ const Home = () => {
         <div>
             <Header />
             <UsersList />
+            
         </div>
     )
 

@@ -7,7 +7,6 @@ import { setUser } from "../../redux/actions";
 import { useHistory } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Modal from 'react-modal';
-import useModal from "../useModal/useModal";
 import Register from "../Register/Register";
 import CloseIcon from '@material-ui/icons/Close';
 
@@ -40,6 +39,8 @@ const Login = () => {
     console.log(currentUser);
     console.log(currentUser.isAuth);
     history.push("/Home");
+
+    
   };
 
   const handleChangeUsername = e => {
